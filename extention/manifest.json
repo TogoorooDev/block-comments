@@ -14,7 +14,8 @@
           "19": "ui/icons/icon.svg",
           "38": "ui/icons/icon.svg"
         },
-        "default_title": "BTI Comment Blocker"
+        "default_title": "Youtube Comment Blocker",
+        "default_popup": "ui/popup/popup.html"
       },
 
     "content_scripts": [
