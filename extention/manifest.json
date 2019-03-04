@@ -3,6 +3,11 @@
     "name": "Youtube Comment Blocker",
     "version": "1.0",
     
+    "icons": {
+        "48": "ui/icons/icon.svg",
+        "96": "ui/icons/icon.svg"
+      },
+
     "page_action": {
         "browser_style": true,
         "default_icon": {
