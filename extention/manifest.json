@@ -2,7 +2,16 @@
     "manifest_version": 2,
     "name": "Youtube Comment Blocker",
     "version": "1.0",
-  
+    
+    "page_action": {
+        "browser_style": true,
+        "default_icon": {
+          "19": "ui/icons/icon.svg",
+          "38": "ui/icons/icon.svg"
+        },
+        "default_title": "BTI Comment Blocker"
+      },
+
     "content_scripts": [
         {
           "matches": ["https://youtube.com/watch"],
