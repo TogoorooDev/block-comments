@@ -2,6 +2,12 @@
 
     "manifest_version": 2,
     "name": "Youtube Comment Blocker",
-    "version": "1.0"
+    "version": "1.0",
   
+    "content_scripts": [
+        {
+          "matches": ["https://developer.mozilla.org/*"],
+          "js": ["js/block.js"]
+        }
+      ]
   }
